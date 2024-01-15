@@ -7,7 +7,6 @@
     main {
         padding: 15px;
     }
-
     .header-tittle {
         width: 100%;
         padding: 15px;
@@ -40,21 +39,16 @@
 
     }
 
-
+    .popular-section-text{
+        padding: 5px;
+    }
     .popular-section {
         flex-direction: column;
     }
 
-    .popular-section-text {
-        padding: 10px;
-    }
 
     .popular-section-img img {
         width: 100%;
-    }
-
-    .destination-section-text {
-        padding: 10px;
     }
 
     .destination-section-img img {
@@ -140,16 +134,23 @@
     .news-letter-img .mulish-32 {
         font-size: 1rem;
     }
-
+    .sponspors-section-img {
+    
+        margin-bottom: 50px;
+        padding: 30px;
+        gap: 40px;
+    }
     .brand {
         padding: 5px 20px;
         grid-template-columns: repeat(4, 1fr);
     }
 
-    footer {
+    footer  {
         padding: 20px 30px;
     }
-
+    .banner, .news-letter-section, .popular-section, .service-section,.destination-section,.sponspors-section, footer{
+        margin-top: 30px;
+    }
 
 }
 
@@ -298,6 +299,9 @@
 
     footer {
         padding: 20px 30px;
+    }
+    .banner, .news-letter-section, .popular-section, .service-section,.destination-section,.sponspors-section, footer{
+        margin-top: 50px;
     }
 
 }
