@@ -9,4 +9,11 @@
     .header .header-tittle .nav-icon{
         /* display: block; */
     }
+    .banner{ background-size: 100% 100% ;
+        padding: 20px 45px;
+        margin: 50px  10px 0px;
+    }
+    .banner-input{
+    flex-direction: column;
+    }
 }

@@ -5,6 +5,13 @@
     font-family: 'Mulish', sans-serif;
 }
 /* common item */
+.mulish-64{
+    color: #FFF;
+font-size: 4rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
 .mulish-48{
     color: #131318;
 font-size:2.25rem;
@@ -14,17 +21,33 @@ line-height: normal;
 }
 .mulish-18{
     color: var(--Dark-02, #424247);
-text-align: center;
 font-family: Mulish;
 font-size: 1.1rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+.mulish-16{
+    color: #FFF;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.btn-primary{
+    color: #FFF;
+text-align: center;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+}
 .container{
     max-width: 1170px;
     margin: 0 auto;
-    border: 2px solid red;
 }
 
 .header{
@@ -50,4 +73,48 @@ ul li{
 li a{
     text-decoration: none;
     color: var(--Dark-02, #424247);
+}
+/* nav ends here */
+.banner{
+    margin-top: 50px;
+
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    border-radius: 16px;
+    background-size: cover;
+    padding: 106px 150px;
+    /* border: 2px solid red; */
+}
+.banner-input{
+    margin-top: 48px;
+    justify-content: space-evenly;
+    display:flex;
+padding: 16px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+gap: 24px;
+
+}
+.banner-input input{
+    border: none;
+    border-radius: 8px;
+background: #FFF;
+    padding: 16px;
+    /* width: 174px; */
+flex-shrink: 0;
+}
+.fa-chevron-down{
+    margin-left: -30px;
+}
+.find-btn{
+    border: none;
+    border-radius: 8px;
+    padding: 16px 36px;
+    /* width: 174px; */
+flex-shrink: 0;
+}
+.fa-magnifying-glass{
+    margin-right: 8px;
 }
