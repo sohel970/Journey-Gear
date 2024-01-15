@@ -1,45 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Journey Gear</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header class="header container">
         <div class="header-tittle">
-          <img src="Images/Group 40071 (2).png" alt="">
-          <h2 class="mulish-48">Journey <span style="color: #FF5400;">Gear</span></h2>
-          <div class="nav-icon"><i class="fa-solid fa-bars"></i></div>
+            <img src="Images/Group 40071 (2).png" alt="">
+            <h2 class="mulish-48">Journey <span style="color: #FF5400;">Gear</span></h2>
+            <div class="nav-icon"><i class="fa-solid fa-bars"></i></div>
         </div>
-       <nav class="nav mulish-18">
-        <ul >
-            <li ><a style="color: #FF5400;" href="">Home</a></li>
-            <li><a href="">Packages</a></li>
-            <li><a href="">Testimonial</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-       </nav>
+        <nav class="nav mulish-18">
+            <ul>
+                <li><a style="color: #FF5400;" href="">Home</a></li>
+                <li><a href="">Packages</a></li>
+                <li><a href="">Testimonial</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <section class="container">
-<div class="banner"> 
-    <div class="banner-text">
-        <h1 class="mulish-64" style="margin-bottom:24px;">Explore Your Travel</h1>
-        <p style="color: white;">"Explore Your World with Endless Adventures: Discover, Plan, and Embark on Unforgettable Journeys with our Travel Platform. Your Next Destination Awaits!"</p>
-       </div>
-       <div class="banner-input">
-       <div> <input type="text" placeholder="Where go"></div>
-       <div><input type="text" placeholder="When"></div>
-        <div><input type="text" placeholder="Select Type"></div>
-        <button class="btn-primary find-btn"><i class="fa-solid fa-magnifying-glass"></i>Find Now</button>
+        <div class="banner">
+            <div class="banner-text">
+                <h1 class="mulish-64" style="margin-bottom:24px;">Explore Your Travel</h1>
+                <p style="color: white;">"Explore Your World with Endless Adventures: Discover, Plan, and Embark on
+                    Unforgettable Journeys with our Travel Platform. Your Next Destination Awaits!"</p>
+            </div>
+            <div class="banner-input">
+                <div> <input type="text"  placeholder="Where go"></div>
+                <!-- <input type="text" placeholder="When"> -->
+                <div><select name="" class="select">
+                        <option value="volvo">When</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                      </select>
+                </select></div>
+                <div><select class="select" >
+                    <option value="volvo">Select Type</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select></div>
+                <!-- <div><input type="text" placeholder="Select Type"></div> -->
+                <button class="btn-primary find-btn"><i class="fa-solid fa-magnifying-glass"></i>Find Now</button>
 
-       </div>
-</div>
-      
+            </div>
+        </div>
     </section>
+    <main class="container">
+        <section class="popular-section">
+            <div class="popular-section-text">
+                <h3 class="mulish-40">Our Popular Tours</h3>
+                <p class=".mulish-16-rgba">"Embark on unforgettable journeys with our popular tours. Explore diverse
+                    destinations, create lasting memories, and make every moment an adventure."</p>
+                <ul class=".mulish-16-rgba">
+                    <li>Dive into vibrant cityscapes, explore bustling markets, and revel in cultural hubs. Experience
+                        the heartbeat of metropolises worldwide.</li>
+                    <li>Tropical paradises, cultural gems, and hidden retreats await. Unearth the world's most
+                        sought-after destinations.</li>
+                    <li>Savor culinary delights, wine tastings, and gourmet experiences. Indulge your palate in these
+                        unforgettable gastronomic adventures.</li>
+                </ul>
+                <p>
+                    "Explore our curated selection of popular tours. From tranquil nature retreats to epic historical
+                    expeditions and thrilling adventures, each journey promises unforgettable moments. Your next
+                    extraordinary escape awaits discovery!"</p>
+                <button class="btn-primary read-btn">Read More</button>
+            </div>
+            <div class="popular-section-img">
+                <img src="Images/Rectangle 4.png" alt="">
+
+            </div>
+        </section>
+        <section class="destination-section">
+            <div class="destination-section-text">
+                <h2>Choose Your Destination</h2>
+                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+            </div>
+            <div class="destination-section-img">
+             <img class="item1" src="Images/Rectangle 5.png" alt="">
+             <img class="item2" src="Images/Rectangle 8.png" alt="">
+             <img class="item3" src="Images/Rectangle 6.png" alt="">
+             <img class="item4" src="Images/Rectangle 7.png" alt="">
+             <img class="item5" src="Images/Rectangle 9.png" alt="">
+             <img class="item6" src="Images/Rectangle 11.png" alt="">
+             <img class="item7" src="Images/Rectangle 10.png" alt="">
+            </div>
+        </section>
+        <section class="service-section">
+            <div class="service-section-text">
+
+            </div>
+            <div class="service-section-cards">
+              <div class="card-1">
+                <i class="fa-solid fa-hotel"></i>
+                <h3 class="mulish-24">Handpicked Hotels</h3>
+                <p>
+                    "Indulge in opulence and personalized hospitality at our handpicked hotels. Each property is meticulously chosen for its charm, exceptional service, and unique experiences, ensuring a memorable stay for every traveler."</p>
+              </div>
+              <div class="card-2">
+                <i class="fa-solid fa-hotel"></i>
+                <h3 class="mulish-24">Handpicked Hotels</h3>
+                <p>
+                    "Indulge in opulence and personalized hospitality at our handpicked hotels. Each property is meticulously chosen for its charm, exceptional service, and unique experiences, ensuring a memorable stay for every traveler."</p>
+              </div>
+              <div class="card-3">
+                <i class="fa-solid fa-hotel"></i>
+                <h3 class="mulish-24">Handpicked Hotels</h3>
+                <p>
+                    "Indulge in opulence and personalized hospitality at our handpicked hotels. Each property is meticulously chosen for its charm, exceptional service, and unique experiences, ensuring a memorable stay for every traveler."</p>
+              </div>
+            </div>
+        </section>
+        <section class="news-letter-section">
+            <div class="news-letter-input">
+          <h3>Newsletter</h3>
+          <p>
+            "Stay informed with our concise and captivating newsletter updates every week."</p>
+            <input type="text" placeholder="Enter your name">
+            <input type="text" class="Enter your email">
+            <button class="btn-primary btn-subscriber">Subscribe</button>
+            </div>
+            <div class="news-letter-img">
+                <img src="Images/Rectangle 8 (1).png" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-text">
+           <div class="footer-tittle">
+            <img src="Images/Group 40071 (2).png" alt="">
+            <h2 class="mulish-48">Journey <span style="color: #FF5400;">Gear</span></h2>
+           </div>
+            <p class="mulish-16" style="color: #5A5A5D;">
+                Embark on unforgettable adventures, explore diverse cultures, savor exotic cuisines, and create lasting memories. Your next journey awaits discovery with us.</p>
+        </div>
+        <div class="social-icon">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+        <hr>
+        <p class="footer-last-text">2024, All Rights Reserved.</p>
+    </footer>
 </body>
+
 </html>
