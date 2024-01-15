@@ -1,19 +1,28 @@
 @media screen and (max-width:600px){
+    .header {
+        margin-top: 10px;}
+
     .header-tittle{
+        width: 100%;
+        padding: 15px;
+        display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 5px;
     }
     .nav{
         display: none;
     }
     .header .header-tittle .nav-icon{
-        /* display: block; */
+        font-weight: 600;
+        font-size: 20px;
+        display: block;
     }
     .banner{ 
-        /* object-fit: cover; */
+
         background-size: 100% 100% ;
         padding: 20px 45px;
-        margin: 50px  10px 0px;
+        margin: 10px  10px 0px;
     }
     .banner-input{
     flex-direction: column;
@@ -23,9 +32,15 @@
     input, .select, .find-btn{
         width: 174px;
     }
+    main{
+        padding: 15px;
+    }
   
     .popular-section{
         flex-direction: column;
+    }
+    .popular-section-text{
+        padding: 10px;
     }
     .popular-section-img img{
         width: 100%;
@@ -38,6 +53,9 @@
         height: 250px;
       
     }
+    /* .destination-section{
+        padding: 10px;
+    } */
     .destination-section .destination-section-img{
         grid-template-columns:repeat(1, 1fr) ;
         grid-template-rows: repeat(7, 1fr);
